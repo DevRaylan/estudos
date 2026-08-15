@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Processamento de vendas </h1>
+
+ <form action="Processamento.php" method="post">
+  <fieldset>
+   <legend> Processamento de vendas com PHP </legend>
+   <label class="alinha"> Forneça o valor inicial da compra: </label>
+   <input type="number" name="valor-compra" autofocus min="0" step=".01"> <br> <br>
+
+   <label> Escolha a modalidade de pagamento: </label> <br>
+   <input type="radio" name="modalidade-pagamento" value="à vista"> <label> Pagamento à vista </label> <br> 
+   <input type="radio" name="modalidade-pagamento" value="a prazo"> <label> Pagamento a prazo </label> <br> <br>
+ 
+   <input type="checkbox" name="pagamento-cartao" value="sim"> <label> Marque esta opção se o cliente pagou a compra com cartão Visa </label> <br>
+    
+   <button> Processar dados da compra </button>   
+  </fieldset>
+ </form>    
+</body> 
+</html> 

@@ -1,0 +1,25 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+<head> 
+  <meta charset="utf-8"> 
+  <link rel="stylesheet" href="formata-formulario.css">
+</head> 
+
+<body> 
+ <h1> Processamento de vendas - Comissão sobre venda </h1>
+
+ <form action="Processamento.php" method="post">
+  <fieldset>
+   <legend> Processamento de vendas </legend>
+   <label class="alinha"> Forneça o valor da compra: </label>
+   <input type="number" name="valor-compra" autofocus step=".01" min="0"> <br>
+
+   <label class="alinha"> Forneça o percentual de comissão do vendedor: </label>
+   <input type="number" name="percent-comissao"  step=".1" min="0"> <br>
+   
+   <button> Processar dados da venda </button>
+   
+  </fieldset>
+ </form>    
+</body> 
+</html> 
