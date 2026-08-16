@@ -1,5 +1,3 @@
-cat > "/Users/d.raylan/DEV/estudos/README.md" << 'EOF'
-
 # Estudos
 
 Exercícios e atividades desenvolvidos durante cursos técnicos — Java, Spring Boot e PHP.
